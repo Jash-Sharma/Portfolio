@@ -13,7 +13,7 @@ const Navbar = () => {
     setnav(!nav)
   }
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#85dbcf] text-[#e27d60]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#08100c] text-[#f1f1f1]">
       <div>
         <p className="font-bold text-4xl font-serif">Welcome</p>
       </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "absolute top-0 left-0 w-full h-screen bg-[#85dbcf] flex flex-col justify-center items-center"
+            ? "absolute top-0 left-0 w-full h-screen bg-[#08100c] flex flex-col justify-center items-center"
             : "hidden"
         }
       >

@@ -5,14 +5,14 @@ import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   return (
-    <div name="home" className="bg-[#85dbcf] w-full h-screen">
+    <div name="home" className="bg-[#08100c] w-full h-screen">
       {/*....Container.....*/}
       <div className="max-w-[1050px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[#e27d60] text-2xl">Hello, I am</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#e8a87c]">
+        <p className="text-[#e8d2c4] text-2xl">Hello, I am</p>
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#ffffff]">
           Jash Sharma
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#e27d60]">
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#e8d2c4]">
           <TypeAnimation
             sequence={[
               "Data Scientist",
@@ -29,14 +29,14 @@ function Home() {
           />
           |
         </h2>
-        <p className=" text-[#e27d60] py-4 max-w-[700px]">
+        <p className=" text-[#e8d2c4] py-4 max-w-[700px]">
           I am a computer science student with good level of expertise in data
           science and web development. I have in-hand experience, working on an
           number of different projects....
         </p>
         <div>
-          <Link to="project" smooth={true} duration={500}>
-            <button className="text-[#e8a87c] group border-2 px-6 py-3 my-2 border-[#e8a87c] flex items-center hover:bg-[#c36d9e] hover:border-[#c36d9e]">
+          <Link to="project" smooth={true} duration={750}>
+            <button className="text-[#f1f1f1] group border-2 px-6 py-3 my-2 border-[#f1f1f1] flex items-center hover:bg-[#55595d] hover:border-[#55595d]">
               View Projects
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-2" />

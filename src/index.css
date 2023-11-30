@@ -12,7 +12,7 @@ body {
 
 li {
     @apply px-4;
-    @apply cursor-pointer
+    @apply cursor-pointer;
 }
 
 .content-div {
@@ -25,7 +25,7 @@ li {
 .content-div:hover{
     background-image: linear-gradient(
         to right,
-        rgba(112, 226, 255, 0.8),
-        hsla(173, 74%, 61%, 0.8)
+        #7e848b,
+        #acb4bd
     ) !important;
 }
