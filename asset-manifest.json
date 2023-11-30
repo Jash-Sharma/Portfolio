@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.3c2a6d11.css",
+    "main.js": "/Portfolio/static/js/main.29941ce6.js",
+    "static/media/matplotlib.png": "/Portfolio/static/media/matplotlib.1f3cb36363d0eb2c163f.png",
+    "static/media/dashboard.png": "/Portfolio/static/media/dashboard.1e79e55f3d762f9cbea3.png",
+    "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/wordcounter.png": "/Portfolio/static/media/wordcounter.d9697dffb0a8af38c7f0.png",
+    "static/media/mongo.png": "/Portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/python.png": "/Portfolio/static/media/python.632369df831d16241b59.png",
+    "static/media/Mysql.png": "/Portfolio/static/media/Mysql.a04abbf76b39676bc4d9.png",
+    "index.html": "/Portfolio/index.html",
+    "main.3c2a6d11.css.map": "/Portfolio/static/css/main.3c2a6d11.css.map",
+    "main.29941ce6.js.map": "/Portfolio/static/js/main.29941ce6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c2a6d11.css",
+    "static/js/main.29941ce6.js"
+  ]
+}
