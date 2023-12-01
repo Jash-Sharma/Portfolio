@@ -41,62 +41,75 @@ const Project = () => {
               </div>
             </div>
           </div> */}
-          <div
-            style={{ backgroundImage: `url(${dashboard})` }}
-            className="shadow-lg shadow-[#55595d] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-[#ffffff] tracking-wider">
-                SpaceX Launch Data Prediction
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://spacexlaunchdata.onrender.com/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/Jash-Sharma/IBM-Data-Science-Capstone-Project"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
-                    Code
-                  </button>
-                </a>
+          <div className="shadow-lg shadow-[#55595d] bg-[#55595d] rounded-sm container justify-center text-center items-center">
+            <div
+              style={{ backgroundImage: `url(${dashboard})` }}
+              className=" group container flex justify-center rounded-sm opacity-50 items-center mx-auto content-div"
+            >
+              {/* Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl font-bold text-[#ffffff] tracking-wider">
+                  SpaceX Launch Data Prediction
+                </span>
+                <div className="pt-8 text-center">
+                  <a
+                    href="https://spacexlaunchdata.onrender.com/"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
+                      Demo
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/Jash-Sharma/IBM-Data-Science-Capstone-Project"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
+            <div className="text-l text-[#e8d2c4] ">
+              This is a Data Science project which I have worked on the SpaceX's
+              Launch Data to visualize and predict the success-to-failure ratio
+              of launches.
+            </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${wordcounter})` }}
-            className="shadow-lg shadow-[#55595d] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-[#f1f1f1] tracking-wider">
-                Responsive Word Counter
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://jash-sharma.github.io/React-Task-1/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/Jash-Sharma/React-Task-1/tree/master"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
-                    Code
-                  </button>
-                </a>
+          <div className="shadow-lg shadow-[#55595d] bg-[#55595d] rounded-sm container justify-center text-center items-center">
+            <div
+              style={{ backgroundImage: `url(${wordcounter})` }}
+              className="group container  flex justify-center opacity-50 items-center mx-auto content-div"
+            >
+              {/* Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl font-bold text-[#f1f1f1] tracking-wider">
+                  Responsive Word Counter
+                </span>
+                <div className="pt-8 text-center">
+                  <a
+                    href="https://jash-sharma.github.io/React-Task-1/"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
+                      Demo
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/Jash-Sharma/React-Task-1/tree/master"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
               </div>
+            </div>
+            <div className="text-l text-[#e8d2c4] ">
+              This is a Word Counter which can count the number of words in a
+              given text.
             </div>
           </div>
         </div>
