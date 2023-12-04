@@ -9,7 +9,7 @@ const Contact = () => {
       <form
         method="POST"
         action="https://getform.io/f/4d804625-1a69-4a5a-b2e2-8f514b08ce23"
-        className="flex flex-col max-w-[600px] w- "
+        className="flex flex-col max-w-[600px]  "
       >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#55595d]">
@@ -21,21 +21,21 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className=" p-2 bg-[#e8d2c4]  text-[#08100c]"
+          className=" p-2 bg-[#a4aeb8]  text-[#08100c]"
           name="name"
           placeholder="Name"
           type="text"
           required
         />
         <input
-          className="my-4 p-2 bg-[#e8d2c4] text-[#08100c]"
+          className="my-4 p-2 bg-[#a4aeb8] text-[#08100c]"
           name="email"
           placeholder="Email"
           type="email"
           required
         />
         <textarea
-          className="bg-[#e8d2c4] p-2 text-[#08100c]"
+          className="bg-[#a4aeb8] p-2 text-[#08100c]"
           name="Message"
           rows="10"
           placeholder="Message"

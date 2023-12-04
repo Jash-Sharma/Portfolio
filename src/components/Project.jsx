@@ -1,8 +1,7 @@
 import React from "react";
 import dashboard from "../assets/projects/dashboard.png";
-import wordcounter from "../assets/projects/wordcounter.png";
 import olympic from '../assets/projects/olympic.png';
-
+import spam from '../assets/projects/spam.png'
 const Project = () => {
   return (
     <div
@@ -22,6 +21,44 @@ const Project = () => {
           {/* Grid items */}
           <div className="shadow-lg shadow-[#55595d] bg-[#55595d] rounded-sm container justify-center text-center items-center">
             <div
+              style={{ backgroundImage: `url(${spam})` }}
+              className=" group container flex justify-center rounded-sm opacity-50 items-center mx-auto content-div"
+            >
+              {/* Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl font-bold text-[#ffffff] tracking-wider">
+                  Spam Classifier
+                </span>
+                <div className="pt-8 text-center">
+                  <a
+                    href="https://spam-detect.streamlit.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
+                      Demo
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/Jash-Sharma/SpamDetection"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="text-l text-[#e8d2c4] ">
+              This is a Machine Learning project to classify between Spam and
+              non-Spam messages/email. Do check it out..
+            </div>
+          </div>
+
+          <div className="shadow-lg shadow-[#55595d] bg-[#55595d] rounded-sm container justify-center text-center items-center">
+            <div
               style={{ backgroundImage: `url(${olympic})` }}
               className=" group container flex justify-center rounded-sm opacity-50 items-center mx-auto content-div"
             >
@@ -34,6 +71,7 @@ const Project = () => {
                   <a
                     href="https://olympics-data-analysis-1.streamlit.app/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
                       Demo
@@ -42,6 +80,7 @@ const Project = () => {
                   <a
                     href="https://github.com/Jash-Sharma/OlympicDataAnalysis"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
                       Code
@@ -51,7 +90,9 @@ const Project = () => {
               </div>
             </div>
             <div className="text-l text-[#e8d2c4] ">
-              This is a Data Science project consisting of various analysis on the olympics data to find out interesting patterns in the data. Do check it out..
+              This is a Data Science project consisting of various analysis on
+              the olympics data to find out interesting patterns in the data. Do
+              check it out..
             </div>
           </div>
           <div className="shadow-lg shadow-[#55595d] bg-[#55595d] rounded-sm container justify-center text-center items-center">
@@ -68,6 +109,7 @@ const Project = () => {
                   <a
                     href="https://spacexlaunchdata.onrender.com/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
                       Demo
@@ -76,6 +118,7 @@ const Project = () => {
                   <a
                     href="https://github.com/Jash-Sharma/IBM-Data-Science-Capstone-Project"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
                       Code
@@ -85,44 +128,9 @@ const Project = () => {
               </div>
             </div>
             <div className="text-l text-[#e8d2c4] ">
-              This is a Data Science project in which I have worked on the SpaceX's
-              Launch Data to visualize and predict the success-to-failure ratio
-              of launches.
-            </div>
-          </div>
-          <div className="shadow-lg shadow-[#55595d] bg-[#55595d] rounded-sm container justify-center text-center items-center">
-            <div
-              style={{ backgroundImage: `url(${wordcounter})` }}
-              className="group container  flex justify-center opacity-50 items-center mx-auto content-div"
-            >
-              {/* Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-[#f1f1f1] tracking-wider">
-                  Responsive Word Counter
-                </span>
-                <div className="pt-8 text-center">
-                  <a
-                    href="https://jash-sharma.github.io/React-Task-1/"
-                    target="_blank"
-                  >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
-                      Demo
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/Jash-Sharma/React-Task-1/tree/master"
-                    target="_blank"
-                  >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#55595d] text-[#ffffff] font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="text-l text-[#e8d2c4] ">
-              This is a Word Counter which can count the number of words in a
-              given text.
+              This is a Data Science project in which I have worked on the
+              SpaceX's Launch Data to visualize and predict the
+              success-to-failure ratio of launches.
             </div>
           </div>
         </div>
