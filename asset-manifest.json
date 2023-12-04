@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.64c3506e.css",
-    "main.js": "/Portfolio/static/js/main.5a7e33ff.js",
+    "main.css": "/Portfolio/static/css/main.b4dad125.css",
+    "main.js": "/Portfolio/static/js/main.108b3e88.js",
     "static/media/matplotlib.png": "/Portfolio/static/media/matplotlib.1f3cb36363d0eb2c163f.png",
     "static/media/olympic.png": "/Portfolio/static/media/olympic.8e417e9bacbb16ee77de.png",
     "static/media/dashboard.png": "/Portfolio/static/media/dashboard.1e79e55f3d762f9cbea3.png",
     "static/media/react.png": "/Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/wordcounter.png": "/Portfolio/static/media/wordcounter.d9697dffb0a8af38c7f0.png",
+    "static/media/spam.png": "/Portfolio/static/media/spam.0b5d4a535cb2928a3693.png",
     "static/media/mongo.png": "/Portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
     "static/media/python.png": "/Portfolio/static/media/python.632369df831d16241b59.png",
     "static/media/Mysql.png": "/Portfolio/static/media/Mysql.a04abbf76b39676bc4d9.png",
     "index.html": "/Portfolio/index.html",
-    "main.64c3506e.css.map": "/Portfolio/static/css/main.64c3506e.css.map",
-    "main.5a7e33ff.js.map": "/Portfolio/static/js/main.5a7e33ff.js.map"
+    "main.b4dad125.css.map": "/Portfolio/static/css/main.b4dad125.css.map",
+    "main.108b3e88.js.map": "/Portfolio/static/js/main.108b3e88.js.map"
   },
   "entrypoints": [
-    "static/css/main.64c3506e.css",
-    "static/js/main.5a7e33ff.js"
+    "static/css/main.b4dad125.css",
+    "static/js/main.108b3e88.js"
   ]
 }
