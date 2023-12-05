@@ -44,7 +44,7 @@ const Particle = () => {
               quantity: 4,
             },
             repulse: {
-              distance: 200,
+              distance: 150,
               duration: 0.4,
             },
           },
@@ -57,7 +57,7 @@ const Particle = () => {
             color: "#ffffff",
             distance: 150,
             enable: true,
-            opacity: 1,
+            opacity: 0.5,
             width: 1,
           },
           move: {
@@ -78,7 +78,7 @@ const Particle = () => {
             value: 80,
           },
           opacity: {
-            value: 0.5,
+            value: 0.4,
           },
           shape: {
             type: "circle",
