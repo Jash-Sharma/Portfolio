@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import Skill from "./components/Skill";
+import Particle from './components/Particle'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skill />
       <Project />
       <Contact />
+      <Particle />
     </div>
   );
 }
